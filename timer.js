@@ -1,18 +1,15 @@
 // 中考倒计时
 
 // 设置目标日期
-var targetDate = new Date("2024-06-21 00:00:00");
+var targetDate = new Date("2024-06-21 09:00:00");
 
 function updateTimer() {
-  // 获取当前日期
+  # 获取时间
   var currentDate = new Date();
-
-  // 计算差值
   var timeDifference = targetDate - currentDate;
 
-  // 检查是否已经到达目标日期
+  # 计算差值
   if (timeDifference <= 0) {
-    // 计算已过去的时间
     timeDifference = currentDate - targetDate;
     var prefix = "中考结束已经 ";
   } else {
