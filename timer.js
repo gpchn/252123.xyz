@@ -1,7 +1,7 @@
 // 中考倒计时
 
 // 设置目标日期
-var targetDate = new Date('2024-06-21 00:00:00');
+var targetDate = new Date("2024-06-21 00:00:00");
 
 function updateTimer() {
   // 获取当前日期
@@ -29,5 +29,6 @@ function updateTimer() {
   document.getElementById('timer').innerText = prefix + days + "天 " + hours + "小时 " + minutes + "分钟 " + seconds + "秒";
 }
 
+updateTimer();
 // 每秒更新一次倒计时/正计时
 setInterval(updateTimer, 1000);
