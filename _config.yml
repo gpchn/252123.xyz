@@ -99,10 +99,10 @@ theme: butterfly
 
 # 加密文章
 encrypt: # hexo-blog-encrypt
-  abstract: 请输入密码查看文章
+  #abstract: 请输入密码查看文章
   message: 两任班主任名字缩写？
   tags:
   - {name: password, password: ljlcnn} # 我也不知道怎么藏这个密码，干脆不藏了，反正一般人找不到
-  theme: wave
+  theme: flip
   wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
