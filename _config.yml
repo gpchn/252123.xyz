@@ -103,6 +103,6 @@ encrypt: # hexo-blog-encrypt
   message: 密码为23班两任班主任的姓名首字母（小写）
   tags:
   - {name: password, password: ljlcnn} # 我也不知道怎么藏这个密码，干脆不藏了，反正一般人找不到
-  theme: surge
+  theme: flip
   wrong_pass_message: 抱歉, 这个密码看着不太对, 请再试试.
   wrong_hash_message: 抱歉, 这个文章不能被校验, 不过您还是能看看解密后的内容.
